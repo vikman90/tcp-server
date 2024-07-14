@@ -1,3 +1,13 @@
+/**
+ * @file poll.cpp
+ * @brief This file contains the implementation of the Poll class, which provides an interface for managing file descriptor events using the epoll mechanism.
+ *
+ * The Poll class is responsible for creating an epoll instance, adding file descriptors to the epoll, waiting for events, and retrieving the file descriptors that have triggered events.
+ * It provides methods for adding file descriptors, waiting for events, and accessing the file descriptors that have triggered events.
+ *
+ * @author Vikman Fernandez-Castro
+ * @date July 14, 2024
+ */
 
 #include "poll.hpp"
 #include <unistd.h>

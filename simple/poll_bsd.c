@@ -1,3 +1,11 @@
+/**
+ * @file poll_bsd.c
+ * @brief This file contains the implementation of the poll_t data structure and related functions using the kqueue system call.
+ *
+ * @author Vikman Fernandez-Castro
+ * @date July 7, 2024
+ */
+
 #include "poll.h"
 #include <stdlib.h>
 #include <stdio.h>

@@ -1,3 +1,13 @@
+/**
+ * @file poll_linux.c
+ * @brief This file contains the implementation of the poll_t data structure and related functions using the epoll system call.
+ *
+ * This implementation uses the epoll system call, which provides more efficient event notification compared to the poll() system call.
+ *
+ * @author Vikman Fernandez-Castro
+ * @date July 7, 2024
+ */
+
 #include "poll.h"
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,3 +1,14 @@
+/**
+ * @file main.c
+ * @brief This file contains the main function for the server application.
+ *
+ * The main.c file includes the necessary headers and defines the main function, which parses command-line arguments,
+ * validates the port number, and starts the server using the serve() function from the server.h file.
+ *
+ * @author Vikman Fernandez-Castro
+ * @date July 7, 2024
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "server.h"
